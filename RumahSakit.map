@@ -1,0 +1,383 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000A168H .text                   CODE
+ 0002:00000000 00000028H .data                   DATA
+ 0002:00000028 00000045H .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 0000008E C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000090 00000090 C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000120 0000000E C=CODE     S=.text    G=(none)   M=Types    ACBP=A9
+ 0001:00000130 00000038 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00000168 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:000001A0 0000000E C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:000001B0 0000000E C=CODE     S=.text    G=(none)   M=SysConst ACBP=A9
+ 0001:000001C0 00000076 C=CODE     S=.text    G=(none)   M=SysUtils ACBP=A9
+ 0001:00000238 0000000E C=CODE     S=.text    G=(none)   M=VarUtils ACBP=A9
+ 0001:00000248 0000000E C=CODE     S=.text    G=(none)   M=Variants ACBP=A9
+ 0001:00000258 0000000E C=CODE     S=.text    G=(none)   M=RTLConsts ACBP=A9
+ 0001:00000268 0000000E C=CODE     S=.text    G=(none)   M=TypInfo  ACBP=A9
+ 0001:00000278 0000002E C=CODE     S=.text    G=(none)   M=Classes  ACBP=A9
+ 0001:000002A8 0000000E C=CODE     S=.text    G=(none)   M=Math     ACBP=A9
+ 0001:000002B8 0000000E C=CODE     S=.text    G=(none)   M=Contnrs  ACBP=A9
+ 0001:000002C8 0000000E C=CODE     S=.text    G=(none)   M=HelpIntfs ACBP=A9
+ 0001:000002D8 0000000E C=CODE     S=.text    G=(none)   M=MultiMon ACBP=A9
+ 0001:000002E8 00000038 C=CODE     S=.text    G=(none)   M=CommCtrl ACBP=A9
+ 0001:00000320 0000000E C=CODE     S=.text    G=(none)   M=Consts   ACBP=A9
+ 0001:00000330 0000000E C=CODE     S=.text    G=(none)   M=Graphics ACBP=A9
+ 0001:00000340 00000038 C=CODE     S=.text    G=(none)   M=Imm      ACBP=A9
+ 0001:00000378 0000000E C=CODE     S=.text    G=(none)   M=SyncObjs ACBP=A9
+ 0001:00000388 0000000E C=CODE     S=.text    G=(none)   M=UxTheme  ACBP=A9
+ 0001:00000398 00000038 C=CODE     S=.text    G=(none)   M=UrlMon   ACBP=A9
+ 0001:000003D0 00000038 C=CODE     S=.text    G=(none)   M=WinInet  ACBP=A9
+ 0001:00000408 00000038 C=CODE     S=.text    G=(none)   M=RegStr   ACBP=A9
+ 0001:00000440 00000038 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:00000478 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:000004B0 0000000E C=CODE     S=.text    G=(none)   M=WinHelpViewer ACBP=A9
+ 0001:000004C0 00000038 C=CODE     S=.text    G=(none)   M=WinSpool ACBP=A9
+ 0001:000004F8 0000000E C=CODE     S=.text    G=(none)   M=Printers ACBP=A9
+ 0001:00000508 00000038 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:00000540 00000038 C=CODE     S=.text    G=(none)   M=Dlgs     ACBP=A9
+ 0001:00000578 00000016 C=CODE     S=.text    G=(none)   M=Dialogs  ACBP=A9
+ 0001:00000590 0000000E C=CODE     S=.text    G=(none)   M=StrUtils ACBP=A9
+ 0001:000005A0 0000000E C=CODE     S=.text    G=(none)   M=Clipbrd  ACBP=A9
+ 0001:000005B0 0000000E C=CODE     S=.text    G=(none)   M=StdActns ACBP=A9
+ 0001:000005C0 0000000E C=CODE     S=.text    G=(none)   M=FlatSB   ACBP=A9
+ 0001:000005D0 0000000E C=CODE     S=.text    G=(none)   M=StdCtrls ACBP=A9
+ 0001:000005E0 00000016 C=CODE     S=.text    G=(none)   M=ExtCtrls ACBP=A9
+ 0001:000005F8 0000000E C=CODE     S=.text    G=(none)   M=ToolWin  ACBP=A9
+ 0001:00000608 00000038 C=CODE     S=.text    G=(none)   M=RichEdit ACBP=A9
+ 0001:00000640 0000000E C=CODE     S=.text    G=(none)   M=IniFiles ACBP=A9
+ 0001:00000650 0000000E C=CODE     S=.text    G=(none)   M=Registry ACBP=A9
+ 0001:00000660 0000000E C=CODE     S=.text    G=(none)   M=Buttons  ACBP=A9
+ 0001:00000670 0000000E C=CODE     S=.text    G=(none)   M=ExtDlgs  ACBP=A9
+ 0001:00000680 0000000E C=CODE     S=.text    G=(none)   M=Mapi     ACBP=A9
+ 0001:00000690 0000000E C=CODE     S=.text    G=(none)   M=ExtActns ACBP=A9
+ 0001:000006A0 0000000E C=CODE     S=.text    G=(none)   M=ComStrs  ACBP=A9
+ 0001:000006B0 0000000E C=CODE     S=.text    G=(none)   M=ListActns ACBP=A9
+ 0001:000006C0 0000001E C=CODE     S=.text    G=(none)   M=ComCtrls ACBP=A9
+ 0001:000006E0 0000000E C=CODE     S=.text    G=(none)   M=Themes   ACBP=A9
+ 0001:000006F0 0000000E C=CODE     S=.text    G=(none)   M=Menus    ACBP=A9
+ 0001:00000700 000000FE C=CODE     S=.text    G=(none)   M=Controls ACBP=A9
+ 0001:00000800 0000000E C=CODE     S=.text    G=(none)   M=ImgList  ACBP=A9
+ 0001:00000810 0000000E C=CODE     S=.text    G=(none)   M=ActnList ACBP=A9
+ 0001:00000820 00000156 C=CODE     S=.text    G=(none)   M=Forms    ACBP=A9
+ 0001:00000978 0000000E C=CODE     S=.text    G=(none)   M=JConsts  ACBP=A9
+ 0001:00000988 0000000E C=CODE     S=.text    G=(none)   M=jpeg     ACBP=A9
+ 0001:00000998 0000000E C=CODE     S=.text    G=(none)   M=DBConsts ACBP=A9
+ 0001:000009A8 0000000E C=CODE     S=.text    G=(none)   M=FMTBcd   ACBP=A9
+ 0001:000009B8 0000000E C=CODE     S=.text    G=(none)   M=DateUtils ACBP=A9
+ 0001:000009C8 0000000E C=CODE     S=.text    G=(none)   M=SqlTimSt ACBP=A9
+ 0001:000009D8 0000000E C=CODE     S=.text    G=(none)   M=MaskUtils ACBP=A9
+ 0001:000009E8 0000000E C=CODE     S=.text    G=(none)   M=ComConst ACBP=A9
+ 0001:000009F8 0000000E C=CODE     S=.text    G=(none)   M=ComObj   ACBP=A9
+ 0001:00000A08 0000008E C=CODE     S=.text    G=(none)   M=DB       ACBP=A9
+ 0001:00000A98 0000000E C=CODE     S=.text    G=(none)   M=SMINTF   ACBP=A9
+ 0001:00000AA8 0000000E C=CODE     S=.text    G=(none)   M=BDE      ACBP=A9
+ 0001:00000AB8 0000000E C=CODE     S=.text    G=(none)   M=DBCommon ACBP=A9
+ 0001:00000AC8 0000000E C=CODE     S=.text    G=(none)   M=bdeconst ACBP=A9
+ 0001:00000AD8 00000076 C=CODE     S=.text    G=(none)   M=DBTables ACBP=A9
+ 0001:00000B50 0000000E C=CODE     S=.text    G=(none)   M=Mask     ACBP=A9
+ 0001:00000B60 0000000E C=CODE     S=.text    G=(none)   M=Grids    ACBP=A9
+ 0001:00000B70 0000000E C=CODE     S=.text    G=(none)   M=VDBConsts ACBP=A9
+ 0001:00000B80 0000000E C=CODE     S=.text    G=(none)   M=DBPWDlg  ACBP=A9
+ 0001:00000B90 0000000E C=CODE     S=.text    G=(none)   M=DBLogDlg ACBP=A9
+ 0001:00000BA0 0000000E C=CODE     S=.text    G=(none)   M=DBCtrls  ACBP=A9
+ 0001:00000BB0 0000000E C=CODE     S=.text    G=(none)   M=DBGrids  ACBP=A9
+ 0001:00000BC0 0000000E C=CODE     S=.text    G=(none)   M=QR3Const ACBP=A9
+ 0001:00000BD0 0000000E C=CODE     S=.text    G=(none)   M=QRExpr   ACBP=A9
+ 0001:00000BE0 0000000E C=CODE     S=.text    G=(none)   M=QREnvEd  ACBP=A9
+ 0001:00000BF0 0000000E C=CODE     S=.text    G=(none)   M=QRPrgres ACBP=A9
+ 0001:00000C00 0000000E C=CODE     S=.text    G=(none)   M=QRPrnSu  ACBP=A9
+ 0001:00000C10 0000000E C=CODE     S=.text    G=(none)   M=QRLablEd ACBP=A9
+ 0001:00000C20 0000000E C=CODE     S=.text    G=(none)   M=QRExprEd ACBP=A9
+ 0001:00000C30 0000000E C=CODE     S=.text    G=(none)   M=QRPrntr  ACBP=A9
+ 0001:00000C40 0000000E C=CODE     S=.text    G=(none)   M=QRPrev   ACBP=A9
+ 0001:00000C50 0000000E C=CODE     S=.text    G=(none)   M=StdVCL   ACBP=A9
+ 0001:00000C60 0000000E C=CODE     S=.text    G=(none)   M=AxCtrls  ACBP=A9
+ 0001:00000C70 0000000E C=CODE     S=.text    G=(none)   M=OleConst ACBP=A9
+ 0001:00000C80 0000000E C=CODE     S=.text    G=(none)   M=OleCtrls ACBP=A9
+ 0001:00000C90 0000000E C=CODE     S=.text    G=(none)   M=QRAbout  ACBP=A9
+ 0001:00000CA0 0000000E C=CODE     S=.text    G=(none)   M=QRCompEd ACBP=A9
+ 0001:00000CB0 0000000E C=CODE     S=.text    G=(none)   M=QRExtra  ACBP=A9
+ 0001:00000CC0 0000000E C=CODE     S=.text    G=(none)   M=QRExpBld ACBP=A9
+ 0001:00000CD0 0000001E C=CODE     S=.text    G=(none)   M=QuickRpt ACBP=A9
+ 0001:00000CF0 0000000E C=CODE     S=.text    G=(none)   M=QRCtrls  ACBP=A9
+ 0001:00000D00 0000000E C=CODE     S=.text    G=(none)   M=ADOInt   ACBP=A9
+ 0001:00000D10 0000000E C=CODE     S=.text    G=(none)   M=OleDB    ACBP=A9
+ 0001:00000D20 0000000E C=CODE     S=.text    G=(none)   M=ADOConst ACBP=A9
+ 0001:00000D30 0000000E C=CODE     S=.text    G=(none)   M=Mtx      ACBP=A9
+ 0001:00000D40 0000000E C=CODE     S=.text    G=(none)   M=ADODB    ACBP=A9
+ 0001:00000D50 00009034 C=CODE     S=.text    G=(none)   M=rumah_sakit ACBP=A9
+ 0001:00009D84 000003E4 C=CODE     S=.text    G=(none)   M=RumahSakit ACBP=A9
+ 0002:00000000 0000001C C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001000 00000008 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00001008 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:0000100C 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:00001010 00000004 C=BSS      S=.bss     G=DGROUP   M=CommCtrl ACBP=A9
+ 0002:00001014 00000004 C=BSS      S=.bss     G=DGROUP   M=Imm      ACBP=A9
+ 0002:00001018 00000004 C=BSS      S=.bss     G=DGROUP   M=UrlMon   ACBP=A9
+ 0002:0000101C 00000004 C=BSS      S=.bss     G=DGROUP   M=WinInet  ACBP=A9
+ 0002:00001020 00000004 C=BSS      S=.bss     G=DGROUP   M=RegStr   ACBP=A9
+ 0002:00001024 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:00001028 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:0000102C 00000004 C=BSS      S=.bss     G=DGROUP   M=WinSpool ACBP=A9
+ 0002:00001030 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:00001034 00000004 C=BSS      S=.bss     G=DGROUP   M=Dlgs     ACBP=A9
+ 0002:00001038 00000004 C=BSS      S=.bss     G=DGROUP   M=RichEdit ACBP=A9
+ 0002:0000103C 00000008 C=BSS      S=.bss     G=DGROUP   M=rumah_sakit ACBP=A9
+
+
+  Address         Publics by Name
+
+ 0002:00001014       .1
+ 0002:00001038       .1
+ 0002:00001004       .1
+ 0002:00001034       .1
+ 0002:00001030       .1
+ 0002:00001010       .1
+ 0002:00001018       .1
+ 0002:00001028       .1
+ 0002:00001024       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:0000100C       .1
+ 0002:00001040       .2
+ 0002:00001008       .3
+ 0002:0000102C       .3
+ 0001:000000A4       @InitExe
+ 0001:00003A3C       AddLeadingZeroes
+ 0001:00000318       CommCtrl
+ 0001:00000538       CommDlg
+ 0001:00000570       Dlgs
+ 0001:000003D0       Finalization
+ 0001:00000608       Finalization
+ 0001:00000398       Finalization
+ 0001:00000168       Finalization
+ 0001:00009D84       Finalization
+ 0001:00009D4C       Finalization
+ 0001:00000130       Finalization
+ 0001:00000408       Finalization
+ 0001:00000540       Finalization
+ 0001:00000440       Finalization
+ 0001:00000508       Finalization
+ 0001:00000478       Finalization
+ 0001:000004C0       Finalization
+ 0001:00000340       Finalization
+ 0001:000002E8       Finalization
+ 0001:000000E8       Finalization
+ 0001:00000090       GetModuleHandle
+ 0002:00001000       HInstance
+ 0001:00000370       Imm
+ 0001:00000098       InitializeModule
+ 0001:00000198       Messages
+ 0002:00000004       Module
+ 0001:00000438       RegStr
+ 0001:00000638       RichEdit
+ 0001:0000A0FC       RumahSakit
+ 0002:0000103C       RumahSakitBakhtiar
+ 0001:00009D7C       rumah_sakit
+ 0001:00000470       ShellAPI
+ 0001:000004A8       ShlObj
+ 0001:00000118       SysInit
+ 0002:00000000       TlsIndex
+ 0001:00005C4C       TRumahSakitBakhtiar.BatalClick
+ 0001:00009984       TRumahSakitBakhtiar.Button3Click
+ 0001:00009954       TRumahSakitBakhtiar.Button4Click
+ 0001:00008304       TRumahSakitBakhtiar.ButtonBatalDataPtgsClick
+ 0001:000061E0       TRumahSakitBakhtiar.ButtonBatalObatClick
+ 0001:00008A58       TRumahSakitBakhtiar.ButtonCariDataPetugasClick
+ 0001:00006A3C       TRumahSakitBakhtiar.ButtonCariDokterClick
+ 0001:00007D04       TRumahSakitBakhtiar.ButtonCariObatClick
+ 0001:00009B44       TRumahSakitBakhtiar.ButtonCetakDataPenjualanClick
+ 0001:00009B54       TRumahSakitBakhtiar.ButtonEditDataPenjualanClick
+ 0001:0000689C       TRumahSakitBakhtiar.ButtonHapusEditDokterClick
+ 0001:00007B00       TRumahSakitBakhtiar.ButtonHapusEditOClick
+ 0001:000088A8       TRumahSakitBakhtiar.ButtonHEPetugasClick
+ 0001:00006BB0       TRumahSakitBakhtiar.ButtonKeluarCariDokterClick
+ 0001:00007F04       TRumahSakitBakhtiar.ButtonKeluarCariOClick
+ 0001:00006A18       TRumahSakitBakhtiar.ButtonKeluarEditDokterClick
+ 0001:00007CF0       TRumahSakitBakhtiar.ButtonKeluarEditOClick
+ 0001:000097F4       TRumahSakitBakhtiar.ButtonOutDataPenjualanClick
+ 0001:00008374       TRumahSakitBakhtiar.ButtonSEPetugasClick
+ 0001:00009458       TRumahSakitBakhtiar.ButtonSimpanDataPenjualanClick
+ 0001:00007F18       TRumahSakitBakhtiar.ButtonSimpanDataPtgsClick
+ 0001:00006600       TRumahSakitBakhtiar.ButtonSimpanEditDokterClick
+ 0001:00006BC4       TRumahSakitBakhtiar.ButtonSimpanEditOClick
+ 0001:00005CA0       TRumahSakitBakhtiar.ButtonSimpanObat1Click
+ 0001:00008C7C       TRumahSakitBakhtiar.ButtonTODataPenjualanClick
+ 0001:00004B94       TRumahSakitBakhtiar.CariDokter1Click
+ 0001:000051B8       TRumahSakitBakhtiar.CariObat1Click
+ 0001:00005664       TRumahSakitBakhtiar.CariPetugas1Click
+ 0001:00006768       TRumahSakitBakhtiar.ComboBoxEditDokter1Change
+ 0001:00008648       TRumahSakitBakhtiar.ComboBoxEditPetugasClick
+ 0001:00006FD4       TRumahSakitBakhtiar.ComboBoxJEditOChange
+ 0001:00007AEC       TRumahSakitBakhtiar.ComboBoxJEditOClick
+ 0001:000065EC       TRumahSakitBakhtiar.ComboBoxJenisObatClick
+ 0001:00006294       TRumahSakitBakhtiar.ComboBoxJenisObatSelect
+ 0001:00009264       TRumahSakitBakhtiar.ComboBoxKodeDataPenjualanChange
+ 0001:0000732C       TRumahSakitBakhtiar.ComboBoxKOEditOChange
+ 0001:00009398       TRumahSakitBakhtiar.ComboBoxPtgsDataPenjualanChange
+ 0001:00003A88       TRumahSakitBakhtiar.CounterNomor
+ 0001:000047FC       TRumahSakitBakhtiar.DataDokter1Click
+ 0001:00004E14       TRumahSakitBakhtiar.DataObat2Click
+ 0001:00005764       TRumahSakitBakhtiar.DataPenjualan1Click
+ 0001:000052B8       TRumahSakitBakhtiar.DataPetugas1Click
+ 0001:000091A8       TRumahSakitBakhtiar.EditBayarDataPenjualanChange
+ 0001:00009038       TRumahSakitBakhtiar.EditBODataPenjualanChange
+ 0001:000090F0       TRumahSakitBakhtiar.EditDisDataPenjualanChange
+ 0001:000049BC       TRumahSakitBakhtiar.EditDokter1Click
+ 0001:00004FD4       TRumahSakitBakhtiar.EditObat1Click
+ 0001:00005478       TRumahSakitBakhtiar.EditPetugas1Click
+ 0001:00005A0C       TRumahSakitBakhtiar.Exit1Click
+ 0001:00003A84       TRumahSakitBakhtiar.FormActivate
+ 0001:00003B88       TRumahSakitBakhtiar.FormCreate
+ 0001:00005C8C       TRumahSakitBakhtiar.KeluarClick
+ 0001:00004CC4       TRumahSakitBakhtiar.Print1Click
+ 0001:00004D24       TRumahSakitBakhtiar.Print2Click
+ 0001:00004DE4       TRumahSakitBakhtiar.Print3Click
+ 0001:00004D84       TRumahSakitBakhtiar.Print4Click
+ 0001:00005A18       TRumahSakitBakhtiar.SimpanClick
+ 0001:0000990C       TRumahSakitBakhtiar.SpeedButton1Click
+ 0001:00009930       TRumahSakitBakhtiar.SpeedButton2Click
+ 0001:00004C94       TRumahSakitBakhtiar.View1Click
+ 0001:00004CF4       TRumahSakitBakhtiar.View2Click
+ 0001:00004DB4       TRumahSakitBakhtiar.View3Click
+ 0001:00004D54       TRumahSakitBakhtiar.View4Click
+ 0001:000003C8       UrlMon
+ 0001:00000160       Windows
+ 0001:00000400       WinInet
+ 0001:000004F0       WinSpool
+
+
+  Address         Publics by Value
+
+ 0001:00000090       GetModuleHandle
+ 0001:00000098       InitializeModule
+ 0001:000000A4       @InitExe
+ 0001:000000E8       Finalization
+ 0001:00000118       SysInit
+ 0001:00000130       Finalization
+ 0001:00000160       Windows
+ 0001:00000168       Finalization
+ 0001:00000198       Messages
+ 0001:000002E8       Finalization
+ 0001:00000318       CommCtrl
+ 0001:00000340       Finalization
+ 0001:00000370       Imm
+ 0001:00000398       Finalization
+ 0001:000003C8       UrlMon
+ 0001:000003D0       Finalization
+ 0001:00000400       WinInet
+ 0001:00000408       Finalization
+ 0001:00000438       RegStr
+ 0001:00000440       Finalization
+ 0001:00000470       ShellAPI
+ 0001:00000478       Finalization
+ 0001:000004A8       ShlObj
+ 0001:000004C0       Finalization
+ 0001:000004F0       WinSpool
+ 0001:00000508       Finalization
+ 0001:00000538       CommDlg
+ 0001:00000540       Finalization
+ 0001:00000570       Dlgs
+ 0001:00000608       Finalization
+ 0001:00000638       RichEdit
+ 0001:00003A3C       AddLeadingZeroes
+ 0001:00003A84       TRumahSakitBakhtiar.FormActivate
+ 0001:00003A88       TRumahSakitBakhtiar.CounterNomor
+ 0001:00003B88       TRumahSakitBakhtiar.FormCreate
+ 0001:000047FC       TRumahSakitBakhtiar.DataDokter1Click
+ 0001:000049BC       TRumahSakitBakhtiar.EditDokter1Click
+ 0001:00004B94       TRumahSakitBakhtiar.CariDokter1Click
+ 0001:00004C94       TRumahSakitBakhtiar.View1Click
+ 0001:00004CC4       TRumahSakitBakhtiar.Print1Click
+ 0001:00004CF4       TRumahSakitBakhtiar.View2Click
+ 0001:00004D24       TRumahSakitBakhtiar.Print2Click
+ 0001:00004D54       TRumahSakitBakhtiar.View4Click
+ 0001:00004D84       TRumahSakitBakhtiar.Print4Click
+ 0001:00004DB4       TRumahSakitBakhtiar.View3Click
+ 0001:00004DE4       TRumahSakitBakhtiar.Print3Click
+ 0001:00004E14       TRumahSakitBakhtiar.DataObat2Click
+ 0001:00004FD4       TRumahSakitBakhtiar.EditObat1Click
+ 0001:000051B8       TRumahSakitBakhtiar.CariObat1Click
+ 0001:000052B8       TRumahSakitBakhtiar.DataPetugas1Click
+ 0001:00005478       TRumahSakitBakhtiar.EditPetugas1Click
+ 0001:00005664       TRumahSakitBakhtiar.CariPetugas1Click
+ 0001:00005764       TRumahSakitBakhtiar.DataPenjualan1Click
+ 0001:00005A0C       TRumahSakitBakhtiar.Exit1Click
+ 0001:00005A18       TRumahSakitBakhtiar.SimpanClick
+ 0001:00005C4C       TRumahSakitBakhtiar.BatalClick
+ 0001:00005C8C       TRumahSakitBakhtiar.KeluarClick
+ 0001:00005CA0       TRumahSakitBakhtiar.ButtonSimpanObat1Click
+ 0001:000061E0       TRumahSakitBakhtiar.ButtonBatalObatClick
+ 0001:00006294       TRumahSakitBakhtiar.ComboBoxJenisObatSelect
+ 0001:000065EC       TRumahSakitBakhtiar.ComboBoxJenisObatClick
+ 0001:00006600       TRumahSakitBakhtiar.ButtonSimpanEditDokterClick
+ 0001:00006768       TRumahSakitBakhtiar.ComboBoxEditDokter1Change
+ 0001:0000689C       TRumahSakitBakhtiar.ButtonHapusEditDokterClick
+ 0001:00006A18       TRumahSakitBakhtiar.ButtonKeluarEditDokterClick
+ 0001:00006A3C       TRumahSakitBakhtiar.ButtonCariDokterClick
+ 0001:00006BB0       TRumahSakitBakhtiar.ButtonKeluarCariDokterClick
+ 0001:00006BC4       TRumahSakitBakhtiar.ButtonSimpanEditOClick
+ 0001:00006FD4       TRumahSakitBakhtiar.ComboBoxJEditOChange
+ 0001:0000732C       TRumahSakitBakhtiar.ComboBoxKOEditOChange
+ 0001:00007AEC       TRumahSakitBakhtiar.ComboBoxJEditOClick
+ 0001:00007B00       TRumahSakitBakhtiar.ButtonHapusEditOClick
+ 0001:00007CF0       TRumahSakitBakhtiar.ButtonKeluarEditOClick
+ 0001:00007D04       TRumahSakitBakhtiar.ButtonCariObatClick
+ 0001:00007F04       TRumahSakitBakhtiar.ButtonKeluarCariOClick
+ 0001:00007F18       TRumahSakitBakhtiar.ButtonSimpanDataPtgsClick
+ 0001:00008304       TRumahSakitBakhtiar.ButtonBatalDataPtgsClick
+ 0001:00008374       TRumahSakitBakhtiar.ButtonSEPetugasClick
+ 0001:00008648       TRumahSakitBakhtiar.ComboBoxEditPetugasClick
+ 0001:000088A8       TRumahSakitBakhtiar.ButtonHEPetugasClick
+ 0001:00008A58       TRumahSakitBakhtiar.ButtonCariDataPetugasClick
+ 0001:00008C7C       TRumahSakitBakhtiar.ButtonTODataPenjualanClick
+ 0001:00009038       TRumahSakitBakhtiar.EditBODataPenjualanChange
+ 0001:000090F0       TRumahSakitBakhtiar.EditDisDataPenjualanChange
+ 0001:000091A8       TRumahSakitBakhtiar.EditBayarDataPenjualanChange
+ 0001:00009264       TRumahSakitBakhtiar.ComboBoxKodeDataPenjualanChange
+ 0001:00009398       TRumahSakitBakhtiar.ComboBoxPtgsDataPenjualanChange
+ 0001:00009458       TRumahSakitBakhtiar.ButtonSimpanDataPenjualanClick
+ 0001:000097F4       TRumahSakitBakhtiar.ButtonOutDataPenjualanClick
+ 0001:0000990C       TRumahSakitBakhtiar.SpeedButton1Click
+ 0001:00009930       TRumahSakitBakhtiar.SpeedButton2Click
+ 0001:00009954       TRumahSakitBakhtiar.Button4Click
+ 0001:00009984       TRumahSakitBakhtiar.Button3Click
+ 0001:00009B44       TRumahSakitBakhtiar.ButtonCetakDataPenjualanClick
+ 0001:00009B54       TRumahSakitBakhtiar.ButtonEditDataPenjualanClick
+ 0001:00009D4C       Finalization
+ 0001:00009D7C       rumah_sakit
+ 0001:00009D84       Finalization
+ 0001:0000A0FC       RumahSakit
+ 0002:00000000       TlsIndex
+ 0002:00000004       Module
+ 0002:00001000       HInstance
+ 0002:00001004       .1
+ 0002:00001008       .3
+ 0002:0000100C       .1
+ 0002:00001010       .1
+ 0002:00001014       .1
+ 0002:00001018       .1
+ 0002:0000101C       .1
+ 0002:00001020       .1
+ 0002:00001024       .1
+ 0002:00001028       .1
+ 0002:0000102C       .3
+ 0002:00001030       .1
+ 0002:00001034       .1
+ 0002:00001038       .1
+ 0002:0000103C       RumahSakitBakhtiar
+ 0002:00001040       .2
+
+Bound resource files
+
+rumah_sakit.dfm
+RumahSakit.res
+RumahSakit.drf
+
+
+Program entry point at 0001:0000A0FC
